@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArtGallary|template</title>
+
+<!-- <link href="bootstrap.css" rel="stylesheet"> -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/normilize.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-header clearfix">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+          <img width="30px" height="30px" class="navbar-toggle-icon-open" src="img/icon-nav-open.png">
+          <img width="30px" height="30px" class="navbar-toggle-icon-close" src="img/icon-nav-close.png">
+        </button>
+        <button type="button" class="search-toggle" data-toggle="collapse" data-target="#site-search">
+          <img width="30px" height="30px" src="img/icon-search.png" alt="search">
+        </button>
+        <a class="navbar-logo" href="#"><img width="210px" height="30px" src="img/vermilion-logo.png" alt="Vermilion"></a>
+        <!-- brand -->
+      </div>
+      <div class="navbar-menu" id="site-nav">
+        <ul class="main-nav">
+          <li class="navbar-tagline"><h3>THE LIFESTYLE MAGAZINE</h3></li>
+          <li><a href="#fashion" class="menu-link">fashion</a></li>
+          <li><a href="#travel" class="menu-link">travel</a></li>
+          <li><a href="#art" class="menu-link">art</a></li>
+          <li><a href="#food" class="menu-link">food</a></li>
+          <li class="navbar-contact"><a href="#">CONTACT US</a></li>
+        </ul>
+        <ul class="header-social">
+          <li><a class="header-social-item" href="#"><img width="20px" height="20px" src="img/icon-facebook.png" alt="Facebook"></a></li>
+          <li><a class="header-social-item" href="#"><img width="20px" height="20px" src="img/icon-pinterest.png" alt="Pinterest"></a></li>
+          <li><a class="header-social-item" href="#"><img width="20px" height="20px" src="img/icon-twitter.png" alt="Twitter"></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="wrapper">
+      <!-- container -->
+	    <!-- fashion -->
+    <section id="fashion">
+      <h1 class="section-title">Fashion</h1>
+
+      <div class="row clearfix">
+        <div class="fashion-img">
+          <figure class="fashion-img-main"></figure>
+        </div>
+        <div class="fashion-text">
+          <div class="fashion-text-block">
+            <h3>Editor's Choice</h3>
+            <h2 class="fashion-title">Queen<br>of Flora</h2>
+            <h4><a href="">Author</a></h4>
+            <p><a class="btn " href="#">Read More</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row clearfix">
+
+        <div class="fashion-left-article">
+          <div>
+            <figure class="left-article-img">
+              <img src="img/fashion-2.jpg" alt="" />
+            </figure>
+            <div class="left-article-text">
+              <h2>Color Me Complex</h2>
+              <h4><a href="">Author</a></h4>
+              <p>Bold hair treatments step out of the shadows. See your favorite trend-setters transformed.</p>
+              <p><a class="btn " href="#">Read More</a></p>
+            </div>
+          </div>
+         </div>
+
+         <div class="fashion-right-article">
+          <div class="row clearfix">
+            <div class="right-article-img-block">
+              <figure class="right-article-img">
+                <img src="img/fashion-3.jpg" alt="" />
+                <figcaption>ART<br><i>of</i><br>PAINT</figcaption>
+              </figure>
+            </div>
+            <div class="right-article-text">
+              <div class="right-article-text-inner">
+                <h2>Trending Titles</h2>
+                <h4><a href="">Justin Dingwal</a></h4>
+                <p>Catch up on the latest, from makeup secrets to behind-the-scenes shop talk to top model tell-alls. These are the books gracing the coffeetables of clued-in fashionistas this season.</p>
+                <p><a class="btn " href="#">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+   <!-- travel -->
+   <section id="travel">
+     <h1 class="section-title">Travel</h1>
+
+     <div class="row clearfix">
+       <div class="selector-block">
+         <div class="travel-selector" id="travel-selector">
+          <button class="travel-selector-btn">
+            <span class="name">Magical Istanbul</span><span class="triangle"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#" >Magical Istanbul</a></li>
+            <li><a href="#" >Hot Air adventures</a></li>
+            <li><a href="#">Ningaloo Reef with Sharks</a></li>
+            <li><a href="#">Romantic Italy</a></li>
+          </ul>
+        </div>
+       </div>
+     </div>
+
+     <div class="row clearfix">
+
+      <div class="travel-item-block" id="travel-item-block-1">
+          <div id="travel-item-1" class="travel-item active">
+            <video width="689" height="388" poster="video/Istanbul_Turkey.jpg" controls id="video-1">
+              <source src="video/Istanbul_Turkey.m4v" type="video/mp4">
+            </video>
+            <div class="travel-item-text travel-item-text-1">
+              <h3>More Than Minarets</h3>
+              <h4>Devin Supertramp</h4>
+              <p>Sure, the Greeks found Istanbul alluring. And the Persians. The Romans. The Venetians and the Ottomans. But what's in it for you? Marvel at mosaics and palaces by day - and after a breathtaking sunset, let loose in the vibrant nightclub scene. And the people? The people are fabulous.</p>
+            </div>
+          </div>
+          <div id="travel-item-2" class="travel-item">
+            <video controls poster="video/HotAirBalloonAdventure.jpg" id="video-2">
+              <source src="video/HotAirBalloonAdventure.w4v" type="video/mp4">
+            </video>
+            <div class="travel-item-text travel-item-text-2">
+              <h3>Fly High, Fall Free</h3>
+              <h4>Devin Supertramp</h4>
+              <p>Ah, a peaceful balloon ride far above the tranquil desert - NOT. Tie a bungee to that basket and bounce your way across the sky. Make sure your life insurance is up-to-date, and then check out a whole new way to play.</p>
+            </div>
+          </div>
+      </div>
+
+       <div class="travel-info">
+         <div class="row clearfix">
+
+           <div class="travel-info-block">
+             <figure class="travel-info-img">
+                <img src="img/travel-boardwalk.jpg" alt="" />
+                <figcaption>R <span>&amp;</span> R</figcaption>
+              </figure>
+              <div class="travel-info-text">
+                <h3>Blissful Boardwalks Lead To Real Relaxation</h3>
+              </div>
+            </div>
+
+            <div class="travel-info-add">
+              <figure class="travel-info-add-img">
+                <img src="img/travel-bag.png">
+                <figcaption>
+                  TRAVEL IN STYLE
+                  <small><a href="">By Kasia Szczesna</a></small>
+                </figcaption>
+              </figure>
+           </div>
+
+         </div>
+       </div>
+
+     </div>
+
+   </section>
+
+
+   <!-- art -->
+   <section id="art">
+     <h1 class="section-title">Art</h1>
+
+     <div class="row clearfix">
+
+       <div class="art-block">
+         <div class="row clearfix">
+
+           <div class="art-item">
+             <div class="art-item-thumb caption-reverse">
+               <img src="img/art-groenlund.jpg">
+               <h3><a href="">Maria Grønlund</a></h3>
+             </div>
+           </div>
+
+           <div class="art-item">
+             <div class="art-item-thumb caption-reverse">
+               <img src="img/art-seymour.jpg">
+               <h3><a href="">Patrick Seymour</a></h3>
+             </div>
+           </div>
+
+           <div class="art-item art-item-clear">
+             <div class="art-item-thumb">
+               <img src="img/art-tudisco.jpg">
+               <h3><a href="">Antoni Tudisco</a></h3>
+             </div>
+           </div>
+
+           <div class="art-item">
+             <div class="art-item-thumb">
+               <img src="img/art-andaur.jpg">
+               <h3><a href="">Sebastián Andaur</a></h3>
+             </div>
+           </div>
+
+           <div class="art-item">
+             <div class="art-item-thumb">
+               <img src="img/art-just.jpg">
+               <h3><a href="">Črtomir Just</a></h3>
+             </div>
+           </div>
+
+         </div>
+       </div>
+
+       <div class="art-item-new">
+         <img src="img/art-borsi.jpg">
+         <div class="art-item-new-text">
+           <h2>Borsi Breaks Through</h2>
+           <h4><a href="">Flora Borsi</a></h4>
+           <p>Flora Borsi isn't keen on limitations. Her images catch you off guard, force you to look closer, make you react. And people are reacting. From D.C. to L.A., Borsi's work has created a furor in the Twitterverse, generated lively critiques, and changed the way photography is being taught to a new generation.</p>
+  		    <p><a class="btn " href="#">Read More</a></p>
+        </div>
+       </div>
+
+     </div>
+   </section>
+
+
+   <!-- food -->
+   <section id="food">
+     <h1 class="section-title">Food</h1>
+
+     <div class="row clearfix">
+
+       <div class="food-item-main">
+         <img src="img/food-hero.jpg">
+         <div class="food-item-main-text">
+           <h3>Old Foods new Ways: Cutting-Edge Restaurants</h3>
+           <h4><a href="">Food Photography by Chris Lalonde</a></h4>
+         </div>
+       </div>
+
+       <div class="food-block clearfix">
+
+         <div class="food-item">
+           <img src="img/food-taste-tsunami.jpg">
+           <div class="food-item-text">
+             <h3>Taste Tsunami &mdash;<br/>San Francisco</h3>
+           </div>
+         </div>
+
+         <div class="food-item">
+           <img src="img/food-empirical.jpg">
+           <div class="food-item-text">
+             <h3>Empirical &mdash;<br/>New York City</h3>
+           </div>
+         </div>
+
+         <div class="food-item">
+           <img src="img/food-people-food.jpg">
+           <div class="food-item-text">
+             <h3>People Food &mdash;<br/>Chicago</h3>
+           </div>
+         </div>
+
+         <div class="food-item">
+           <img src="img/food-pleased-palate.jpg">
+           <div class="food-item-text">
+             <h3>Pleased Palate &mdash;<br/>Seattle</h3>
+           </div>
+         </div>
+
+       </div>
+
+     </div>
+
+   </section>
+
+  </div><!-- /.container -->
+
+  <footer class="footer">
+    <div class="wrapper">
+     <div class="row clearfix">
+
+      <div class="footer-nav-col">
+        <h4>Websites</h4>
+        <ul>
+          <li><a href="#">Catwalk</a></li>
+          <li><a href="#">Front row</a></li>
+          <li><a href="#">Pret-a-porter</a></li>
+          <li><a href="#">Haute couture</a></li>
+          <li><a href="#">Hommes</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4>Illustrations</h4>
+        <ul>
+          <li><a href="#">Inspiration</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Restaurants</a></li>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Sights</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4>Fonts</h4>
+        <ul>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Plays</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Exhibits</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+      <h4>Elements</h4>
+        <ul>
+          <li><a href="#">Eating in</a></li>
+          <li><a href="#">Dining out</a></li>
+          <li><a href="#">Getting healthy</a></li>
+          <li><a href="#">Just desserts</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-img-ipad">
+        <img src="img/vermilion-ipad.png">
+      </div>
+
+      <div class="footer-subscribe">
+        <h4>Subscribe</h4>
+        <form class="form subscribe-form">
+          <input class="subscribe-form-email" type="email" placeholder="Enter your email" required>
+          <input class="subscribe-form-submit" type="submit" value="submit">
+        </form>
+        <p>Truly international, consistently intelligent, and hugely influential. Click, read, repeat.</p>
+      </div>
+
+      <div class="footer-copyrights">
+        <div class="footer-copyrights-block">
+          <p><a href="#">TERMS &amp; CONDITIONS</a> <a href="#">PRIVACY POLICY</a> <a href="#">DISTRIBUTORS</a></p>
+          <p><small>&copy; 2015 Adobe Systems Incorporated. All rights reserved.<br/>
+          Any reference to Vermilion or any associated logos is for demonstration purposes only and is not intended to refer to any actual organization or event.</small></p>
+        </div>
+      </div>
+
+      <div class="footer-social">
+        <div class="footer-social-block">
+         <ul class="footer-social-nav">
+          <li><a class="footer-social-item" href="#"><img src="img/icon-facebook.png" alt="Facebook"></a></li>
+          <li><a class="footer-social-item" href="#"><img src="img/icon-pinterest.png" alt="Pinterest"></a></li>
+          <li><a class="footer-social-item" href="#"><img src="img/icon-twitter.png" alt="Twitter"></a></li>
+        </ul>
+         <p class="footer-credits">
+          <small>Website by <a href="">DreamUP</a></small>
+          <small>Design by <a href="">Serge Vasil</a></small>
+         </p>
+        </div>
+      </div>
+
+     </div>
+     </div>
+   </footer>
+
+
+<script>
+
+  // Nav Toggling
+  $(".navbar-toggle").on("click", function(){
+    $(".header, html").toggleClass("is-showing-nav");
+  });
+  $(".nav-link").on("click", function(e){
+    if($(window).width() < 768) {
+      $(".navbar-toggle").trigger("click");
+    }
+    // Scroll to anchor
+    e.preventDefault();
+    var target_y = $($(this).attr("href")).offset().top - ($(".header").height() + 50);
+    $("body, html").animate({
+      scrollTop: target_y
+    }, 500, "swing");
+  });
+
+  // Dropdown Videos
+  var video_1 = $("#video-1")[0],
+      video_2 = $("#video-2")[0];
+  $(".dropdown-menu a").on("click", function(e){
+  	e.preventDefault();
+	if ( $(this).data("panel") ) {
+	  var target = $(this).data("panel"),
+	  	  name = $(this).text();
+	  $("#dropdown-menu .name").text(name);
+	  $(".travel-item").removeClass("active");
+	  $("#travel-item-"+target).addClass("active");
+    if ( target === 1 ) {
+      video_1.play();
+      video_2.pause();
+      video_2.currentTime = 0;
+    }
+    if ( target === 2 ) {
+      video_1.pause();
+      video_1.currentTime = 0;
+      video_2.play();
+    }
+	}
+  });
+
+</script>
+</body>
+</html>
